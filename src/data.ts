@@ -9,15 +9,15 @@ export interface Product {
 
 export const products: Product[] = [
   // Foods
-  { id: 'f1', name: 'Asun Pasta', price: 4500, category: 'food', image: 'https://picsum.photos/seed/asunpasta/400/300' },
+  { id: 'f1', name: 'Asun Pasta', price: 4500, category: 'food', image: '/Asun%20pasta.jpg' },
   { id: 'f2', name: 'Native Pasta', price: 4000, category: 'food', image: 'https://picsum.photos/seed/nativepasta/400/300' },
-  { id: 'f3', name: 'Native Rice', price: 3500, category: 'food', image: 'https://picsum.photos/seed/nativerice/400/300' },
-  { id: 'f4', name: 'Suya Rice', price: 4000, category: 'food', image: 'https://picsum.photos/seed/suyarice/400/300', isPopular: true },
-  { id: 'f5', name: 'Moi-moi', price: 1000, category: 'food', image: 'https://picsum.photos/seed/moimoi/400/300' },
+  { id: 'f3', name: 'Native Rice', price: 3500, category: 'food', image: '/jellof.jpg' },
+  { id: 'f4', name: 'Suya Rice', price: 4000, category: 'food', image: '/jellof.jpg', isPopular: true },
+  { id: 'f5', name: 'Moi-moi', price: 1000, category: 'food', image: '/Moi%20moi.jpg' },
   { id: 'f6', name: 'Fried Yam and Egg', price: 3000, category: 'food', image: 'https://picsum.photos/seed/yamegg/400/300' },
-  { id: 'f7', name: 'Spaghetti & Chicken', price: 5000, category: 'food', image: 'https://picsum.photos/seed/spaghettichicken/400/300', isPopular: true },
+  { id: 'f7', name: 'Spaghetti & Chicken', price: 5000, category: 'food', image: '/spag%20chicken.jpg', isPopular: true },
   { id: 'f8', name: 'Coconut Rice', price: 3500, category: 'food', image: 'https://picsum.photos/seed/coconutrice/400/300' },
-  { id: 'f9', name: 'Asun Jollof Rice', price: 4500, category: 'food', image: 'https://picsum.photos/seed/asunjollof/400/300', isPopular: true },
+  { id: 'f9', name: 'Asun Jollof Rice', price: 4500, category: 'food', image: '/jellof.jpg', isPopular: true },
 
   // Snacks
   { id: 's1', name: 'Chin-chin', price: 500, category: 'snacks', image: 'https://picsum.photos/seed/chinchin/400/300' },
