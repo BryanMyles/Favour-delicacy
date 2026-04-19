@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #FF6B00;
+  --color-brand-orange-hover: #E65F00;
+  --color-brand-black: #1A1A1A;
+  --color-brand-gray: #F8F9FA;
+  --color-brand-gray-200: #E9ECEF;
+  --font-sans: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-display: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --shadow-custom: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans bg-brand-gray text-brand-black;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-brand-gray-200);
+  border-radius: 10px;
+}
